@@ -29,3 +29,6 @@
     --smaller-font-size: .875rem;
   }
 }
+*, ::before, ::after {
+    box-sizing: border-box;
+}
