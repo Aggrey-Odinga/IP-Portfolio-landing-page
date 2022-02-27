@@ -19,7 +19,7 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 2000px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -42,7 +42,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: black;
 }
 
 h1,
@@ -94,7 +94,7 @@ img {
 }
 
 .bd-grid {
-  max-width: 1024px;
+  max-width: 2000px;
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
@@ -250,7 +250,8 @@ img {
 }
 
 .about_img img {
-  width: 200px;
+  width: 500px;
+  height: auto;
   border-radius: 0.5rem;
 }
 .skills_container {
@@ -303,6 +304,7 @@ img {
 }
 .skills_img {
   border-radius: 0.5rem;
+  max-height: 50%;
 }
 .work {
   text-align: center;
@@ -359,7 +361,7 @@ img {
   color: #fff;
   margin: 0 var(--mb-2);
 }
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) { 
   body {
     margin: 0;
   }
@@ -409,8 +411,8 @@ img {
     margin-right: var(--mb-4);
   }
   .home_img {
-    width: 400px;
-    bottom: 10%;
+    width: 600px;
+    bottom: 30%;
   }
   .about_container {
     grid-template-columns: repeat(2, 1fr);
@@ -423,7 +425,7 @@ img {
     text-align: initial;
   }
   .about_img img {
-    width: 300px;
+    width: 500px;
   }
   .work_container {
     grid-template-columns: repeat(3, 1fr);
@@ -438,12 +440,13 @@ img {
   }
 }
 @media screen and (min-width: 1024px){
-    .bd-grid{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .home_img{
-        right: 10%;
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home_img {
+    right: 10%;
+  }
 
-    }
 }
+
