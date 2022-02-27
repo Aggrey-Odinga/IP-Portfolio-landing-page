@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-:root {
+ :root { 
   --header-height: 3rem;
   --font-semi: 600;
   --hue-color: 224;
@@ -17,12 +17,12 @@
   --mb-6: 3rem;
   --z-back: -10;
   --z-fixed: 100;
-}
+ } 
 
 @media screen and (min-width: 2000px) {
   :root {
-    --big-font-size: 3.5rem;
-    --h2-font-size: 2rem;
+    --big-font-size: 56px;
+    --h2-font-size: 32px;
     --normal-font-size: 1rem;
     --smaller-font-size: 0.875rem;
   }
@@ -184,7 +184,7 @@ img {
 
 .home {
   height: calc(100vh - 3rem);
-  row-gap: 1rem;
+  row-gap: 30px;
 }
 
 .home_data {
@@ -193,26 +193,11 @@ img {
 
 .home_title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: 200px;
+  padding: 100px;
 }
 
-.home_titile-color {
-  color: var(--first-color);
-}
-
-.home_social {
-  display: flex;
-  flex-direction: column;
-}
-
-.home_social-icon {
-  width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
-  color: var(--second-color);
-}
-
-.home_social-icon:hover {
+.home_title-color {
   color: var(--first-color);
 }
 
@@ -220,24 +205,26 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 295px;
+  width: 495px;
 }
 
 .button {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  padding: 10px 10px;
+  margin-left: 100px;
+  margin-bottom: 200px;
   font-weight: var(--font-semi);
-  border-radius: 0.5rem;
+  border-radius: 30px;
 }
 
 .button:hover {
-  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.7);
 }
 
 .about_container {
-  row-gap: 2rem;
+  row-gap: 0;
   text-align: center;
 }
 
