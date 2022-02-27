@@ -108,7 +108,7 @@ img{
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
+        width:80%;
         height: 100%;
         padding: 2rem;
         background-color: var(--second-color);
@@ -117,17 +117,17 @@ img{
     }
     
 }
-.nav-item{
+.nav_item{
     margin-bottom: var(--mb-4);
 }
-.nav-link{
+.nav_link{
     position: relative;
     color: #fff;
 }
-.nav-link:hover{
+.nav_link:hover{
     position: relative;
 }
-.nav-link:hover::after{
+.nav_link:hover::after{
     position: absolute;
     content: "";
     width: 100%;
