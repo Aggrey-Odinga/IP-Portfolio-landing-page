@@ -15,7 +15,7 @@ Requirements
 
 ## Live site
 
-* Availabe on this link: 
+* Availabe on this link: https://aggrey-odinga.github.io/IP-Portfolio-landing-page/
 
 ### By Aggrey Odinga
 
